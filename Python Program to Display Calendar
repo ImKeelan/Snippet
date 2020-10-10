@@ -5,10 +5,12 @@ import calendar
 
 yy = 2014  # year
 mm = 11    # month
+d = 12  # day
 
-# To take month and year input from the user
-# yy = int(input("Enter year: "))
-# mm = int(input("Enter month: "))
+# To take month and year and day input from the user
+# yy = int(input("Enter year: \n"))
+# mm = int(input("Enter month: \n"))
+# d = int(input("Enter day: \n"))
 
 # display the calendar
-print(calendar.month(yy, mm))
+print(calendar.month(yy, mm, d))
